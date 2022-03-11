@@ -1,0 +1,325 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+#headerBar {
+	width: 100%;
+	height: 33px;
+	background: #484444;
+	margin: 0px;
+}
+
+#headerBar div {
+	text-align: center;
+	font-family: Lato;
+	font-size: 12px;
+	color: white;
+	letter-spacing: 1px;
+	padding-top: 9px;
+}
+
+#headerBarContainer {
+	width: 700px;
+	height: auto;
+	position: relative;
+	left: 50%;
+	top: -26%;
+	transform: translateX(-50%);
+}
+
+#headerBar span {
+	font-family: Lato;
+	font-size: 16px;
+	color: white;
+	float: right;
+	margin-top: 5px;
+	margin-right: 8px;
+	cursor: pointer;
+}
+
+#box1 {
+	width: 100%;
+	height: 1370px;
+	background: url(../images/FA21-Marquee_2000x.jpg);
+	background-size: 100%;
+}
+
+#mainHeader {
+	width: 100%;
+	height: 180px;
+}
+
+
+#topRow {
+	width: 100%;
+	height: 50px;
+	padding: 30px 0px;
+}
+
+#logo {
+	width: 65px;
+	height: 65px;
+}
+
+#currency {
+	float: left;
+	margin-left: 50px;
+}
+
+#imageContainer {
+	width: 65px;
+	height: 65px;
+	/*margin: auto;*/
+	position: relative;
+	left: 50%;
+	top: -19px;
+	transform: translateX(-50%);
+
+}
+
+#loginContainer {
+	float: right;
+	width: 120px;
+	height: 20px;
+	margin-right: 40px;
+	margin-top: 5px;
+}
+
+.search {
+	width: 15px;
+	height: 15px;
+	float: right;
+	padding: 0px 15px;
+}
+
+#bottomRow {
+	width: 100%;
+	height: 64px;
+}
+
+#mainBarElements {
+	list-style: none;
+	text-align: center;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+#mainBarElements li {
+	font-family: Karla;
+	display: inline;
+	text-align: center;
+	padding: 0px 20px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+#cart {
+	float: right;
+	margin-right: 35px;
+}
+
+#dropdownMenu {
+	height:  205px;
+	width: 100%;
+	/*display: none;*/
+	/*visibility: hidden;*/
+}
+
+.listContainer {
+	width: 700px;
+	height: 200px;
+	margin: auto;
+	font-family: Karla;
+}
+
+.listElement {
+	width: 19%;
+	float: left;
+}
+
+.listElementsText li {
+	list-style: none;
+	padding: 5px 0px;
+	font-size: 13px;
+}
+
+#box2 {
+	width: 98.5%;
+	height: 2490px;
+	margin-left: 30px;
+}
+
+.row1 {
+	width: 100%;
+	height: 1228px;
+	margin-top: 35px;
+}
+
+.rowImageContainer {
+	 width: 49.5%;
+	 height: fit-content;
+	 float: left;
+}
+
+.leftImage {
+	margin-right: 15px;
+}
+
+#box3 {
+	width: 100%;
+	height: 265px;
+	position: relative;
+}
+
+#textBox {
+	width: 600px;
+	height: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+#textBoxHeader {
+	width: 600px;
+	height: 40px;
+	font-family: Karla;
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+#textBoxBody {
+	width: 600px;
+	height: 22px;
+	font-family: Karla;
+	color: #999999;
+	text-decoration: underline;
+	font-size: 14px;
+}
+
+#box4 {
+	width: 100%;
+	height: 1271px;
+}
+
+.rowInstagram {
+	width: 100%;
+	height: 629px;
+	margin: 6px 0px;
+}
+
+.imageContainerInstagram {
+	width: 24.5%;
+	height: 629px;
+	margin: 0px 6px;
+	float: left;
+}
+
+#box5 {
+	width: 100%;
+	height: 350px;
+	font-family: Lato;
+	background-color: rgb(247, 247, 247);
+}
+
+#topSection {
+	width: 2443px;
+	height: 220px;
+	padding: 0px 40px;
+}
+
+.sectionBottom {
+	width: 48.77%;
+	height: 200px;
+	padding: 0px 15px;
+	float: left;
+}
+
+.footerHeader {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.sectionBottom ul {
+	list-style: none;
+	font-size: 12px;
+	padding: 0px;
+}
+
+.sectionBottom h3 {
+	font-size: 14px;
+	margin-top: 30px;
+	font-family: Karla;
+}
+
+.sectionBottom li {
+	padding: 3px 0px;
+}
+
+#footerContent {
+	width: 50%;
+	height: 120px;
+}
+
+#footerContent p {
+	font-size: 12px;
+	font-family: Lato;
+}
+
+#okButton {
+	background-color: #444;
+	color: white;
+}
+
+input[type=button] {
+	width: 40px;
+	height: 28px;
+	font-family: Lato;
+	box-shadow: none;
+	border-radius: 2px;
+}
+
+input[type=email] {
+	width: 140px;
+	height: 28px;
+	font-family: Lato;
+	border: 1px solid #ebebeb;
+	color: #333;
+	background: #fff;
+	margin-right: 5px;
+}
+
+#payment {
+	width: 100%;
+	height: 33px;
+}
+
+#paymentImgContainer {
+	width: 650px;
+	height: 33px;
+	margin: 0 auto;
+}
+
+#chatButton {
+	font-size: 20px;
+}
+
+#chatButton button {
+	border: none;
+	background: rgb(32, 42, 54);
+	color: #fff;
+	font-family: Lato;
+	width: 135px;
+	height: 50px;
+	border-radius: 30px;
+	position: fixed;
+	right: 40px;
+	bottom: 40px;
+	font-size: 16px;
+	font-weight: 550;
+
+}
